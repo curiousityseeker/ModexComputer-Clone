@@ -1,0 +1,27 @@
+.productCard-container{
+    /* background-color: black; */
+    width: 14%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.product-img{
+    height: 180px;
+}
+.product-img img{
+    height: 100%;
+}
+.product-info{
+    font-family: "Lexend Deca", sans-serif;
+}
+.product-info h6{
+    font-size: 15px;
+}
+.product-info span i{
+    font-size: 13px;
+}
+#price{
+    color: #ff0000;
+}

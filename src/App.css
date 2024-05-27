@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-container {
+  padding: 40px 60px;
+  display: flex;
+  margin-top: 30px;
+  background-color: rgb(233, 233, 233);
+}
+
+
+.product-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 60px;
+}
+
+.faqs-container h1{
+  text-align: center;
+}
+.faqs-container{
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 40px 60px;
+}

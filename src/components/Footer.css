@@ -1,0 +1,62 @@
+footer {
+    width: 100%
+}
+
+.footer-container {
+    padding: 50px 60px;
+    width: 100%;
+    min-height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 200px;
+    gap: 30px;
+    background-color: #33383d;
+}
+
+.footer-img-para,
+.footer-shop-categories,
+.footer-information,
+.footer-contact-us {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.footer-shop-categories,
+.footer-information,
+.footer-contact-us {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer-container>div>a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: all ease-in-out .4s;
+}
+
+.footer-container>div>a:hover {
+    color: #ff0000;
+}
+
+.footer-img-para p {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-container>div>h4 {
+    font-family: "Days One", sans-serif;
+    color: white;
+    font-size: 22px;
+}
+
+.footer-contact-us p {
+    color: #777777;
+    font-size: 14px;
+    line-height: 1.8;
+}

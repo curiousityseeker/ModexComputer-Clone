@@ -1,0 +1,30 @@
+#carouselExampleIndicators {
+    /* height: 400px; */
+    width: 66.5%;
+}
+.visually-hidden{
+    color: red;
+}
+.carousel-item img{
+    transition: transform ease-in-out .5s;
+}
+.carousel-item img:hover{
+    transform: scale(1.15);
+}
+.slider-container{
+    
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 40px;
+    margin: 50px 100px;
+
+}
+.slider-right-image{
+    height: 445px;
+
+}
+.slider-right-image img{
+    height: 100%;
+    border-radius: 10px;
+}

@@ -1,0 +1,29 @@
+.servicescard-container {
+    display: flex;
+    align-items: center;
+    width: 24%;
+    justify-content: center;
+    /* background-color: red; */
+    gap: 20px;
+}
+
+.service-img {
+    height: 120px;
+}
+
+.service-img img {
+    height: 100%;
+}
+
+.servicecard-info h5 {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #242424;
+}
+
+.servicecard-info p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+}
