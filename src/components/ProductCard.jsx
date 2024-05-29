@@ -15,7 +15,10 @@ const ProductCard = (props) => {
                     <i class="fa-regular fa-star"></i>
                     <i class="fa-regular fa-star"></i>
                 </span>
-                <p id='price'>{props.price}</p>
+            </div>
+            <div className='product-price-cart'>
+                <p id='price'>₹{props.price}</p>
+                <a href='' id="add-to-cart-btn" className='add-to-cart-btn'>Add to Cart</a>
             </div>
         </div>
     )

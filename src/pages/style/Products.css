@@ -1,0 +1,9 @@
+.products-Application {
+    margin: 100px 60px;
+}
+
+.all-products-container {
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: repeat(4, 1fr);
+}
